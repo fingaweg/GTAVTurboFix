@@ -61,7 +61,7 @@ void resolveVersion() {
             eGameVersionToString(lowestSupportedVersion).c_str(), lowestSupportedVersion);
         Patches::SetPatterns(/*actualVersion*/);
         // Actually need to change stuff
-        VehicleExtensions::ChangeVersion(lowestSupportedVersion);
+        VehicleExtensions::SetVersion(lowestSupportedVersion);
         return;
     }
 

@@ -190,6 +190,9 @@
     <ClInclude Include="..\thirdparty\ScriptHookV_SDK\inc\types.h">
       <Filter>ThirdParty\ScriptHookV</Filter>
     </ClInclude>
+    <ClInclude Include="Memory\VehicleFlags.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\thirdparty\irrKlang\lib\Winx64-visualStudio\irrKlang.lib">
